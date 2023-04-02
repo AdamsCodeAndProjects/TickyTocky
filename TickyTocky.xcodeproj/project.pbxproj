@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66AC4D4D29C20B6500711021 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC4D4C29C20B6500711021 /* Home.swift */; };
+		66AC4D4F29C20BA800711021 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC4D4E29C20BA800711021 /* Video.swift */; };
+		66AC4D5129C2118400711021 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC4D5029C2118400711021 /* Player.swift */; };
+		66AC4D5329C23B6D00711021 /* PlayerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC4D5229C23B6D00711021 /* PlayerScrollView.swift */; };
+		66B7594529A83A110041327A /* TickyTockyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7594429A83A110041327A /* TickyTockyApp.swift */; };
+		66B7594729A83A110041327A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7594629A83A110041327A /* ContentView.swift */; };
+		66B7594929A83A1B0041327A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B7594829A83A1B0041327A /* Assets.xcassets */; };
+		66B7594C29A83A1B0041327A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B7594B29A83A1B0041327A /* Preview Assets.xcassets */; };
+		66B7595B29AD9FAC0041327A /* video6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 66B7595529AD9FAB0041327A /* video6.mp4 */; };
+		66B7595C29AD9FAC0041327A /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 66B7595629AD9FAC0041327A /* video5.mp4 */; };
+		66B7595D29AD9FAC0041327A /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 66B7595729AD9FAC0041327A /* video1.mp4 */; };
+		66B7595E29AD9FAC0041327A /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 66B7595829AD9FAC0041327A /* video3.mp4 */; };
+		66B7595F29AD9FAC0041327A /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 66B7595929AD9FAC0041327A /* video2.mp4 */; };
+		66B7596029AD9FAC0041327A /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 66B7595A29AD9FAC0041327A /* video4.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66AC4D4C29C20B6500711021 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		66AC4D4E29C20BA800711021 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		66AC4D5029C2118400711021 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		66AC4D5229C23B6D00711021 /* PlayerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScrollView.swift; sourceTree = "<group>"; };
+		66B7594129A83A110041327A /* TickyTocky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickyTocky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B7594429A83A110041327A /* TickyTockyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickyTockyApp.swift; sourceTree = "<group>"; };
+		66B7594629A83A110041327A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66B7594829A83A1B0041327A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66B7594B29A83A1B0041327A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66B7595529AD9FAB0041327A /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
+		66B7595629AD9FAC0041327A /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		66B7595729AD9FAC0041327A /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		66B7595829AD9FAC0041327A /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		66B7595929AD9FAC0041327A /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		66B7595A29AD9FAC0041327A /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66B7593E29A83A110041327A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66AC4D4A29C20AE700711021 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66B7594629A83A110041327A /* ContentView.swift */,
+				66AC4D4C29C20B6500711021 /* Home.swift */,
+				66AC4D5029C2118400711021 /* Player.swift */,
+				66AC4D5229C23B6D00711021 /* PlayerScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66AC4D4B29C20AF100711021 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66AC4D4E29C20BA800711021 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66B7593829A83A110041327A = {
+			isa = PBXGroup;
+			children = (
+				66AC4D4B29C20AF100711021 /* Model */,
+				66AC4D4A29C20AE700711021 /* View */,
+				66B7596129ADA0B20041327A /* Videos */,
+				66B7594329A83A110041327A /* TickyTocky */,
+				66B7594229A83A110041327A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66B7594229A83A110041327A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66B7594129A83A110041327A /* TickyTocky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66B7594329A83A110041327A /* TickyTocky */ = {
+			isa = PBXGroup;
+			children = (
+				66B7595429A83A720041327A /* Register */,
+				66B7595329A83A670041327A /* Login */,
+				66B7594429A83A110041327A /* TickyTockyApp.swift */,
+				66B7594829A83A1B0041327A /* Assets.xcassets */,
+				66B7594A29A83A1B0041327A /* Preview Content */,
+			);
+			path = TickyTocky;
+			sourceTree = "<group>";
+		};
+		66B7594A29A83A1B0041327A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66B7594B29A83A1B0041327A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66B7595329A83A670041327A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		66B7595429A83A720041327A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		66B7596129ADA0B20041327A /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				66B7595529AD9FAB0041327A /* video6.mp4 */,
+				66B7595629AD9FAC0041327A /* video5.mp4 */,
+				66B7595A29AD9FAC0041327A /* video4.mp4 */,
+				66B7595829AD9FAC0041327A /* video3.mp4 */,
+				66B7595929AD9FAC0041327A /* video2.mp4 */,
+				66B7595729AD9FAC0041327A /* video1.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66B7594029A83A110041327A /* TickyTocky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B7594F29A83A1B0041327A /* Build configuration list for PBXNativeTarget "TickyTocky" */;
+			buildPhases = (
+				66B7593D29A83A110041327A /* Sources */,
+				66B7593E29A83A110041327A /* Frameworks */,
+				66B7593F29A83A110041327A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickyTocky;
+			productName = TickyTocky;
+			productReference = 66B7594129A83A110041327A /* TickyTocky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66B7593929A83A110041327A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					66B7594029A83A110041327A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 66B7593C29A83A110041327A /* Build configuration list for PBXProject "TickyTocky" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66B7593829A83A110041327A;
+			productRefGroup = 66B7594229A83A110041327A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66B7594029A83A110041327A /* TickyTocky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66B7593F29A83A110041327A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B7595B29AD9FAC0041327A /* video6.mp4 in Resources */,
+				66B7595C29AD9FAC0041327A /* video5.mp4 in Resources */,
+				66B7595D29AD9FAC0041327A /* video1.mp4 in Resources */,
+				66B7595E29AD9FAC0041327A /* video3.mp4 in Resources */,
+				66B7595F29AD9FAC0041327A /* video2.mp4 in Resources */,
+				66B7596029AD9FAC0041327A /* video4.mp4 in Resources */,
+				66B7594C29A83A1B0041327A /* Preview Assets.xcassets in Resources */,
+				66B7594929A83A1B0041327A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66B7593D29A83A110041327A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AC4D5329C23B6D00711021 /* PlayerScrollView.swift in Sources */,
+				66B7594729A83A110041327A /* ContentView.swift in Sources */,
+				66AC4D4F29C20BA800711021 /* Video.swift in Sources */,
+				66AC4D4D29C20B6500711021 /* Home.swift in Sources */,
+				66AC4D5129C2118400711021 /* Player.swift in Sources */,
+				66B7594529A83A110041327A /* TickyTockyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66B7594D29A83A1B0041327A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66B7594E29A83A1B0041327A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66B7595029A83A1B0041327A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TickyTocky/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PX6J6VL32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.januszewski.TickyTocky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66B7595129A83A1B0041327A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TickyTocky/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PX6J6VL32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.januszewski.TickyTocky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B7593C29A83A110041327A /* Build configuration list for PBXProject "TickyTocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B7594D29A83A1B0041327A /* Debug */,
+				66B7594E29A83A1B0041327A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B7594F29A83A1B0041327A /* Build configuration list for PBXNativeTarget "TickyTocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B7595029A83A1B0041327A /* Debug */,
+				66B7595129A83A1B0041327A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66B7593929A83A110041327A /* Project object */;
+}
